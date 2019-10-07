@@ -1,0 +1,21 @@
+{
+  "name": "magento/ece-tools-extend",
+  "description": "Extension for ece-tools",
+  "type": "magento2-component",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "repositories": {
+    "repo.magento.com": {
+      "type": "vcs",
+      "url": "git@github.com:magento/ece-tools.git"
+    }
+  },
+  "require": {
+    "magento/ece-tools": "dev-MAGECLOUD-4109 as 2002.0.50"
+  },
+  "autoload": {
+    "psr-4": {
+      "Magento\\EceToolExtend\\": "src/"
+    }
+  }
+}
