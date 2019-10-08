@@ -30,4 +30,5 @@
             </argument>
         </arguments>
     </step>
+    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Deploy\PreDeploy" priority="10"/>
 </scenario>
