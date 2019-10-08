@@ -12,7 +12,7 @@ use Magento\MagentoCloud\Step\StepInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * Removes failed deploy flag.
+ * Extended step for removing failed deploy flag.
  */
 class RemoveDeployFailedFlag implements StepInterface
 {
