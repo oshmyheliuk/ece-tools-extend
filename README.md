@@ -1,6 +1,6 @@
 # ece-tools-extend
 
-To execute extended deploy scenario run next command:
+To execute extended deploy scenario run next command from your Magento Cloud project:
 ```
 php vendor/bin/ece-tools run vendor/magento/ece-tools/scenario/deploy.xml vendor/magento/ece-tools-extend/scenario/extend-deploy.xml
 ```
