@@ -837,12 +837,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/ece-tools.git",
-                "reference": "9cf0cd94a126fb8aa04957a27689f0a1b3db7d71"
+                "reference": "c5189bd69b2a7224bbd7f543f81251ede7f15f1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/ece-tools/zipball/9cf0cd94a126fb8aa04957a27689f0a1b3db7d71",
-                "reference": "9cf0cd94a126fb8aa04957a27689f0a1b3db7d71",
+                "url": "https://api.github.com/repos/magento/ece-tools/zipball/c5189bd69b2a7224bbd7f543f81251ede7f15f1d",
+                "reference": "c5189bd69b2a7224bbd7f543f81251ede7f15f1d",
                 "shasum": ""
             },
             "require": {
@@ -951,7 +951,7 @@
                 "source": "https://github.com/magento/ece-tools/tree/MAGECLOUD-4109",
                 "issues": "https://github.com/magento/ece-tools/issues"
             },
-            "time": "2019-10-07T19:41:09+00:00"
+            "time": "2019-10-08T13:21:45+00:00"
         },
         {
             "name": "magento/magento-cloud-components",
