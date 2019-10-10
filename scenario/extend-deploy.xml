@@ -1,10 +1,4 @@
 <?xml version="1.0"?>
-<!--
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
--->
 <scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../vendor/magento/ece-tools/config/scenario.xsd">
     <!-- Replace remove-deploy-failed-flag step with custom stem -->
     <step name="remove-deploy-failed-flag" type="Magento\EceToolExtend\Step\Deploy\RemoveDeployFailedFlag" priority="100"/>
@@ -17,8 +11,8 @@
             </argument>
         </arguments>
     </step>
-    <step name="unlock-cron-jobs"/> <!-- Step unlock-cron-jobs will be skipped -->
-    <step name="validate-config" type="Magento\MagentoCloud\Step\ValidateConfiguration">
+    <step name="unlock-cron-jobs" priority="100"/> <!-- Step unlock-cron-jobs will be skipped -->
+    <step name="validate-config" type="Magento\MagentoCloud\Step\ValidateConfiguration" priority="300">
         <arguments>
             <argument name="logger" xsi:type="object">Psr\Log\LoggerInterface</argument>
             <argument name="validators" xsi:type="array">
