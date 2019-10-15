@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Magento\EceToolExtend\Step\Deploy;
+namespace Magento\EceToolExtend\Step\Build;
 
 use Magento\MagentoCloud\Step\StepInterface;
 use Psr\Log\LoggerInterface;
