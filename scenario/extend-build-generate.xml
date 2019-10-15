@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:ece-tools:config/scenario.xsd">
+    <!-- skipping step "copy-sample-data" -->
+    <step name="copy-sample-data" skip="true"/>
+</scenario>
