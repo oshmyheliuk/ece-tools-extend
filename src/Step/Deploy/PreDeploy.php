@@ -32,6 +32,6 @@ class PreDeploy implements StepInterface
      */
     public function execute()
     {
-        $this->logger->info('Running Demo pred deploy step');
+        $this->logger->info('Running demo pre deploy step');
     }
 }
