@@ -7,5 +7,5 @@
     <step name="set-production-mode" type="Magento\EceToolExtend\Step\Build\SetProductionMode" priority="200"/>
 
     <!-- Add new step into the end of build:generate scenario -->
-    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Build\StaticContentUpdate" priority="1200"/>
+    <step name="update-static-content" type="Magento\EceToolExtend\Step\Build\StaticContentUpdate" priority="1200"/>
 </scenario>
