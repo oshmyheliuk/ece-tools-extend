@@ -33,5 +33,5 @@
     </step>
 
     <!-- Add new step into the beginning of deploy scenario -->
-    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Deploy\StaticContentUpdate" priority="10"/>
+    <step name="update-static-content" type="Magento\EceToolExtend\Step\Deploy\StaticContentUpdate" priority="10"/>
 </scenario>
