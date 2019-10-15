@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:ece-tools:config/scenario.xsd">
-    <!-- skipping step "copy-sample-data" -->
+    <!-- Skip step "copy-sample-data" -->
     <step name="copy-sample-data" skip="true"/>
+
+    <!-- Add new step into the end of build:generate scenario -->
+    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Build\StaticContentUpdate" priority="1200"/>
 </scenario>

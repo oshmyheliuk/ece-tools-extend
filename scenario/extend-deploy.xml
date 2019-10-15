@@ -32,6 +32,6 @@
         </arguments>
     </step>
 
-    <!-- Added new step into the beginning of deploy scenario -->
-    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Deploy\PreDeploy" priority="10"/>
+    <!-- Add new step into the beginning of deploy scenario -->
+    <step name="new-pre-deploy-step" type="Magento\EceToolExtend\Step\Deploy\StaticContentUpdate" priority="10"/>
 </scenario>
